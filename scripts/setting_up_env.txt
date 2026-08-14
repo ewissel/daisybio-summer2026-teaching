@@ -1,0 +1,20 @@
+
+1. Select python kernel source ??
+    we want to specify "python environments" and then click the daisy_env from conda
+    VS Code will prompt you to install the jupyter notebook extension for VS Code
+    also will prompt to download ipython 
+
+2. Add a markdown cell
+    use some formatting (#)
+
+3. Add a code cell
+    press control + enter to run the cell, and then possible specify the python conda env again (daisy_env)
+
+4. Run "import pandas as pd"
+    open terminal 
+    activate py conda env (daisy_env) (conda activate daisy_env) 
+        issues with conda in the terminal? troubleshoot the env path: https://stackoverflow.com/questions/58369030/could-not-find-conda-environment 
+    install pandas (conda install anaconda::pandas)             ## for handling dataframe
+    install skbio (conda install conda-forge::scikit-bio)       ## for alpha / beta diversity section
+    install seaborn (conda install anaconda::seaborn)           ## for plotting
+    and install sklearn (conda install anaconda::scikit-learn)  ## for permanova stats
